@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		DC4F93D529DE463D007D7437 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4F93D429DE463D007D7437 /* AppDelegate.swift */; };
 		DC4F93D729DE463D007D7437 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4F93D629DE463D007D7437 /* SceneDelegate.swift */; };
-		DC4F93D929DE463D007D7437 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4F93D829DE463D007D7437 /* ViewController.swift */; };
-		DC4F93DC29DE463D007D7437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4F93DA29DE463D007D7437 /* Main.storyboard */; };
+		DC4F93D929DE463D007D7437 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4F93D829DE463D007D7437 /* HomeViewController.swift */; };
 		DC4F93DE29DE463F007D7437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4F93DD29DE463F007D7437 /* Assets.xcassets */; };
 		DC4F93E129DE463F007D7437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4F93DF29DE463F007D7437 /* LaunchScreen.storyboard */; };
+		DCA5179429E064A200B19D29 /* AnimalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5179329E064A200B19D29 /* AnimalCollectionViewCell.swift */; };
+		DCA5179629E09ECE00B19D29 /* AgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5179529E09ECE00B19D29 /* AgeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC4F93D129DE463D007D7437 /* animal-age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "animal-age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4F93D429DE463D007D7437 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC4F93D629DE463D007D7437 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC4F93D829DE463D007D7437 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC4F93DB29DE463D007D7437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC4F93D829DE463D007D7437 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DC4F93DD29DE463F007D7437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC4F93E029DE463F007D7437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC4F93E229DE463F007D7437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA5179329E064A200B19D29 /* AnimalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCollectionViewCell.swift; sourceTree = "<group>"; };
+		DCA5179529E09ECE00B19D29 /* AgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				DC4F93D429DE463D007D7437 /* AppDelegate.swift */,
 				DC4F93D629DE463D007D7437 /* SceneDelegate.swift */,
-				DC4F93D829DE463D007D7437 /* ViewController.swift */,
-				DC4F93DA29DE463D007D7437 /* Main.storyboard */,
+				DC4F93D829DE463D007D7437 /* HomeViewController.swift */,
 				DC4F93DD29DE463F007D7437 /* Assets.xcassets */,
 				DC4F93DF29DE463F007D7437 /* LaunchScreen.storyboard */,
 				DC4F93E229DE463F007D7437 /* Info.plist */,
+				DCA5179329E064A200B19D29 /* AnimalCollectionViewCell.swift */,
+				DCA5179529E09ECE00B19D29 /* AgeViewController.swift */,
 			);
 			path = "animal-age";
 			sourceTree = "<group>";
@@ -127,7 +130,6 @@
 			files = (
 				DC4F93E129DE463F007D7437 /* LaunchScreen.storyboard in Resources */,
 				DC4F93DE29DE463F007D7437 /* Assets.xcassets in Resources */,
-				DC4F93DC29DE463D007D7437 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC4F93D929DE463D007D7437 /* ViewController.swift in Sources */,
+				DC4F93D929DE463D007D7437 /* HomeViewController.swift in Sources */,
 				DC4F93D529DE463D007D7437 /* AppDelegate.swift in Sources */,
+				DCA5179629E09ECE00B19D29 /* AgeViewController.swift in Sources */,
+				DCA5179429E064A200B19D29 /* AnimalCollectionViewCell.swift in Sources */,
 				DC4F93D729DE463D007D7437 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +151,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DC4F93DA29DE463D007D7437 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC4F93DB29DE463D007D7437 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DC4F93DF29DE463F007D7437 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +287,6 @@
 				INFOPLIST_FILE = "animal-age/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +313,6 @@
 				INFOPLIST_FILE = "animal-age/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
